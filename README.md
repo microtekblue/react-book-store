@@ -1,7 +1,9 @@
 # React Book Store
 React Book Store - NextJS, React, Redux, TypeScript, TailwindCSS
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Demo: https://react-book-store-roan.vercel.app/
+
+Developer: Asim Ahmad
 
 ## Getting Started
 
@@ -19,6 +21,4 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Updated December 14, 2023  
-
-Developer: Asim Ahmad
+Updated December 14, 2023
