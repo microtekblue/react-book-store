@@ -96,7 +96,7 @@ export default function Modal(props: any) {
                 <div className="mb-5">
                   <label
                     htmlFor="title"
-                    className="mb-2 block text-sm font-bold text-gray-900 dark:text-white"
+                    className="mb-2 block text-sm font-bold text-gray-900"
                   >
                     Book Title
                   </label>
@@ -106,7 +106,7 @@ export default function Modal(props: any) {
                     id="title"
                     name="title"
                     defaultValue={props.data.title}
-                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-900 p-2.5 focus:border-blue-500 focus:ring-blue-500 dark:placeholder-gray-400 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-900 p-2.5 focus:border-blue-500 focus:ring-blue-500"
                     required
                   />
                   {errors.title ? (
@@ -118,7 +118,7 @@ export default function Modal(props: any) {
                 <div className="mb-5">
                   <label
                     htmlFor="price"
-                    className="mb-2 block text-sm font-bold text-gray-900 dark:text-white"
+                    className="mb-2 block text-sm font-bold text-gray-900"
                   >
                     Book Price
                   </label>
@@ -128,7 +128,7 @@ export default function Modal(props: any) {
                     id="price"
                     name="price"
                     defaultValue={props.data.price}
-                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-900 p-2.5 focus:border-blue-500 focus:ring-blue-500 dark:placeholder-gray-400 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-900 p-2.5 focus:border-blue-500 focus:ring-blue-500"
                     required
                   />
                   {errors.price ? (
@@ -140,7 +140,7 @@ export default function Modal(props: any) {
                 <div className="mb-5">
                   <label
                     htmlFor="category"
-                    className="mb-2 block text-sm font-bold text-gray-900 dark:text-white"
+                    className="mb-2 block text-sm font-bold text-gray-900"
                   >
                     Book Category
                   </label>
@@ -149,7 +149,7 @@ export default function Modal(props: any) {
                     id="category"
                     name="category"
                     defaultValue={props.data.category}
-                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-900 p-2.5 focus:border-blue-500 focus:ring-blue-500 dark:placeholder-gray-400 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-900 p-2.5 focus:border-blue-500 focus:ring-blue-500"
                     required
                   >
                     <option value="Select">Select...</option>
@@ -187,7 +187,7 @@ export default function Modal(props: any) {
                 <div className="mb-5">
                   <label
                     htmlFor="description"
-                    className="mb-2 block text-sm font-bold text-gray-900 dark:text-white"
+                    className="mb-2 block text-sm font-bold text-gray-900"
                   >
                     Book Description
                   </label>
@@ -197,7 +197,7 @@ export default function Modal(props: any) {
                     id="description"
                     name="description"
                     defaultValue={props.data.description}
-                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-900 p-2.5 focus:border-blue-500 focus:ring-blue-500 dark:placeholder-gray-400 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 text-sm text-gray-900 p-2.5 focus:border-blue-500 focus:ring-blue-500"
                     required
                   />
                   {errors.description ? (
