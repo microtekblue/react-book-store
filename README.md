@@ -5,6 +5,15 @@ Demo: https://react-book-store-roan.vercel.app/
 
 Developer: Asim Ahmad
 
+## Technology Stack:
+NextJS: 14.0.4 <br>
+React: 18.2.0 <br>
+React Redux: 9.0.4 <br>
+TypeScript: 5.3.3 <br>
+TailwindCSS: 3.3.0 <br>
+ESLint: 8.55.0 <br>
+Prettier: 3.1.1
+
 ## Getting Started
 
 First, run the development server:
